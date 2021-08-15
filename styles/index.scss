@@ -14,11 +14,11 @@
 
 .cards {
     display: flex;
-    margin: 112px 132px 115px;
+    margin: 115px 132px;
     position: relative;
     z-index: 10;
     .price-card {
-        padding-top: 36px;
+        padding-top: 33px;
         display: flex;
         flex-direction: column;
         width: 380px;
@@ -124,8 +124,8 @@ ul li:nth-child(odd) {
 .price-card__title {
     color: #fff;
     font-size: 35px;
-    line-height: 30.48px;
-    margin-bottom: 0;
+    line-height: 31px;
+    margin-bottom: 5px;
     margin-top: 0;
     font-weight: 700;
     padding-bottom: 0;
@@ -161,4 +161,10 @@ ul li:nth-child(odd) {
     line-height: 17px;
     position: absolute;
     font-weight: 700;
+}
+
+.options-list__webshop {
+    li {
+        list-style-image: url(images/verification-checkmark-symbol_orange.png);
+    }
 }
