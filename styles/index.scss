@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1440px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 115px 132px;
+    background-color: #141b1c;
+    font-family: Montserrat, sans-serif;
+}
+
+.cards {
+    display: flex;
+    .card {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        height: 773px;
+        background-color: #334247;
+        margin-right: 18px;
+        text-align: center;
+        .price-card__title {
+            color: #fff;
+            font-size: 35px;
+            line-height: 43px;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 0;
+            color: #fff;
+        }
+        .price {
+            line-height: 67px;
+            font-size: 55px;
+            height: 105px;
+            padding: 19px 128px;
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        &__text {
+            display: flex;
+            margin: 0;
+            margin: 40px 27px;
+            color: #fff;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: 300;
+        }
+        ul {
+            margin: 0;
+            margin-bottom: 39px;
+            padding-left: 0;
+            li {
+                height: 50px;
+                text-align: left;
+                color: #fff;
+                font-weight: 300;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+                img {
+                    margin-right: 20px;
+                }
+            }
+        }
+        button {
+            width: 155px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 17px;
+            border-radius: 20px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            border: none;
+            color: #fff;
+        }
+    }
+}
+
+ul li:nth-child(odd) {
+    background-color: #2A3438;
+}
+
+.basic {
+    &__price {
+        background-color: #5BB189;
+    }
+    &__button {
+        background-color: #5BB189;
+    }
+}
+
+.business {
+    &__price {
+        background: #3A6BA5;
+    }
+    &__button {
+        background-color: #3A6BA5;
+    }
+}
+
+.webshop {
+    &__price {
+        background: #EC632A;
+    }
+    &__button {
+        background: #EC632A;
+    }
+}
+
+.advateges__list-basic li:nth-child(odd) {
+    background-color: #2A3438;
+}
