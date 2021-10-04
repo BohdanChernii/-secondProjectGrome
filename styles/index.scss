@@ -31,7 +31,7 @@
       line-height: 24.38px;
       margin: 0;
       font-weight: 300;
-      color: #fff;
+      color: $white;
     }
     .price-card__price {
       line-height: 67px;
@@ -42,7 +42,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff;
+      color: $white;
     }
     ul {
       margin: 0;
@@ -51,7 +51,7 @@
       li {
         height: 50px;
         text-align: left;
-        color: #fff;
+        color: $white;
         font-weight: 300;
         font-size: 15px;
         display: flex;
@@ -71,7 +71,7 @@
       margin: 0 auto;
       margin-bottom: 40px;
       border: none;
-      color: #fff;
+      color: $white;
     }
   }
 }
@@ -80,14 +80,14 @@
   display: flex;
   margin: 0;
   margin: 40px 27px;
-  color: #fff;
+  color: $white;
   font-size: 15px;
   line-height: 18px;
   font-weight: 300;
 }
 
 ul li:nth-child(odd) {
-  background-color: #2a3438;
+  background-color: $oddLi;
 }
 
 .basic {
@@ -118,11 +118,11 @@ ul li:nth-child(odd) {
 }
 
 .advateges__list-basic li:nth-child(odd) {
-  background-color: #2a3438;
+  background-color: $oddLi;
 }
 
 .price-card__title {
-  color: #fff;
+  color: $white;
   font-size: 35px;
   line-height: 31px;
   margin-bottom: 5px;
@@ -139,28 +139,29 @@ ul li:nth-child(odd) {
   width: 147px;
   height: 105px;
   margin: 0;
-  color: #fff;
+  position: absolute;
   right: 0px;
   top: 0px;
-  position: absolute;
   margin-left: auto;
   overflow: hidden;
+  color: $white;
 }
 
 .badge p {
-  transform: rotate(45deg);
   width: 200px;
   height: 25px;
-  background: #dc3f45;
+  transform: rotate(45deg);
   display: flex;
-  margin-top: 30px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
   position: absolute;
+  margin-top: 30px;
+  background: $badge;
+  font-size: 14px;
   font-weight: 700;
+  line-height: 17px;
+  
+
 }
 
 .options-list__webshop {

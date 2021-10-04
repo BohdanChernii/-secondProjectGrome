@@ -87,32 +87,32 @@
 }
 
 ul li:nth-child(odd) {
-  background-color: #2A3438;
+  background-color: #2a3438;
 }
 
 .basic__price {
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 .basic__button {
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 
 .business__price {
-  background: #3A6BA5;
+  background: #3a6ba5;
 }
 .business__button {
-  background-color: #3A6BA5;
+  background-color: #3a6ba5;
 }
 
 .webshop__price {
-  background: #EC632A;
+  background: #ec632a;
 }
 .webshop__button {
-  background: #EC632A;
+  background: #ec632a;
 }
 
 .advateges__list-basic li:nth-child(odd) {
-  background-color: #2A3438;
+  background-color: #2a3438;
 }
 
 .price-card__title {
@@ -133,28 +133,27 @@ ul li:nth-child(odd) {
   width: 147px;
   height: 105px;
   margin: 0;
-  color: #fff;
+  position: absolute;
   right: 0px;
   top: 0px;
-  position: absolute;
   margin-left: auto;
   overflow: hidden;
+  color: #fff;
 }
 
 .badge p {
-  transform: rotate(45deg);
   width: 200px;
   height: 25px;
-  background: #DC3F45;
+  transform: rotate(45deg);
   display: flex;
-  margin-top: 30px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
   position: absolute;
+  margin-top: 30px;
+  background: #dc3f45;
+  font-size: 14px;
   font-weight: 700;
+  line-height: 17px;
 }
 
 .options-list__webshop li {
